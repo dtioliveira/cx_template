@@ -81,5 +81,5 @@ test:
 production:
   <<: *default
   database: cx_template_production
-  username: cx_template
-  password: <%= ENV['CX_TEMPLATE_DATABASE_PASSWORD'] %>
+  # username: cx_template
+  # password: <%= ENV['CX_TEMPLATE_DATABASE_PASSWORD'] %>
